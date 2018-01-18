@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  adventureworksapi:
+    image: adventureworksapi
+    build:
+      context: ./src/AdventureWorksAPI
+      dockerfile: Dockerfile
